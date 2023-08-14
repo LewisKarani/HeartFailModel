@@ -6,9 +6,9 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # load the trained model
-model_path = 'C:\\Users\\HP\\Documents\\Models/best_model1.pkl'
 
-model = joblib.load(model_path)
+
+model = joblib.load("best_model1.pkl")
 # Define the app title and layout
 st.title("Heart Falure Prediction app")
 # Define input fields for features
